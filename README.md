@@ -11,18 +11,18 @@
 Employee Data
 ---------------
 @relation employee
-@attribute name {x,y,z,a,b}
+@attribute name {Akshaya,Sai,Aasrith,Sri,Ram}
 @attribute id numeric
 @attribute salary {low,medium,high}
 @attribute exp numeric
 @attribute gender {male,female}
 @attribute phone numeric
 @data
-x,101,low,2,male,250311
-y,102,high,3,female,251665
-z,103,medium,1,male,240238
-a,104,low,5,female,200200
-b,105,high,2,male,240240
+Akshaya,101,low,2,female,250311
+Sai,102,high,3,male,251665
+Aasrith,103,medium,1,male,240238
+Sri,104,low,5,female,200200
+Ram,105,high,2,male,240240
 
 --------------
 Weather Data
@@ -54,7 +54,7 @@ rainy,75.0,80.0,false,yes
 
 ### OUTPUT:
 
-
+<img width="1233" height="742" alt="Screenshot 2026-07-24 105239" src="https://github.com/user-attachments/assets/d5b3ed62-3165-4a0f-9ddf-93803a9b494b" />
 
 ### PREPROCESSING
 ### Procedure:
@@ -75,6 +75,9 @@ rainy,75.0,80.0,false,yes
 14) Click on the Edit button, it shows a new Weather Table on Weka.
 
 ### OUTPUT:
+<img width="1233" height="742" alt="Screenshot 2026-07-24 114616" src="https://github.com/user-attachments/assets/cc1e617e-863d-4a57-802b-9940ef045e0a" />
+
+
 
 ### 2) Remove -> Pre-Processing Technique:
 
@@ -91,6 +94,7 @@ rainy,75.0,80.0,false,yes
 11) Click on the Edit button, it shows a new Weather Table on Weka.
 
 ### OUTPUT:
+<img width="1232" height="736" alt="Screenshot 2026-07-24 114900" src="https://github.com/user-attachments/assets/c8eed438-b7cd-4395-90c0-0186379e88ff" />
 
 ### Normalize -> Pre-Processing Technique:
 
@@ -107,5 +111,7 @@ rainy,75.0,80.0,false,yes
 11) Click on the Edit button, it shows a new Weather Table with normalized values on Weka.
 
 ### OUTPUT:
+<img width="1232" height="743" alt="Screenshot 2026-07-24 115138" src="https://github.com/user-attachments/assets/48e3497e-e34e-4386-9427-22fd0fc28778" />
+
 ### RESULT: 
   Thus the program for generating employee and weather datasets has been developed, and preprocessing has been accomplished successfully.
